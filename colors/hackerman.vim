@@ -127,14 +127,14 @@ call s:Col('NonText', 'base4')
 call s:Col('Conceal', 'cyan', s:background)
 
 " TODO and similar tags.
-call s:Col('Todo', 'darkergray', s:background)
+call s:Col('Todo', 'orange', 'darkergray')
 
 " The column separating vertical splits.
 call s:Col('VertSplit', 'pink', s:linenr_background)
 call s:Col('StatusLineNC', 'pink', 'blue')
 
 " Matching parenthesis.
-call s:Col('MatchParen', 'black', 'orange')
+call s:Col('MatchParen', 'orange', 'red')
 
 " Special keys, e.g. some of the chars in 'listchars'. See ':h listchars'.
 call s:Col('SpecialKey', 'base4')
