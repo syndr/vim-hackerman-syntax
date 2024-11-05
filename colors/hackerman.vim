@@ -76,13 +76,14 @@ let s:colors.gray         = { 'gui': '#969896', 'cterm': 246 }
 let s:colors.darkergray   = { 'gui': '#1c1c1c', 'cterm': 233 }
 let s:colors.base4        = { 'gui': '#245361', 'cterm': 23 }
 let s:colors.base6        = { 'gui': '#99d1ce', 'cterm': 116 }
+let s:colors.none         = { 'gui': 'NONE', 'cterm': 'NONE' }
 
 " Native highlighting ==========================================================
 
-let s:background = 'black'
+let s:background = 'none'
 
 " This is the background colour of the line's number
-let s:linenr_background = 'darkergray'
+let s:linenr_background = 'none'
 
 " Everything starts here.
 call s:Col('Normal', 'cyan', s:background)
